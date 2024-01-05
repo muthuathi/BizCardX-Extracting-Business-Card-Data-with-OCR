@@ -15,8 +15,7 @@ icon = Image.open("icon.jpg")
 st.set_page_config(page_title= "BizCardX: Extracting Business Card Data with OCR ",
                    page_icon= icon,
                    layout= "wide",
-                   initial_sidebar_state= "expanded",
-                   menu_items={'About': """# This OCR app is created by Muthulakshmi"""})
+                   initial_sidebar_state= "expanded")
 st.markdown("<h1 style='text-align: center; color: white;'>BizCardX: Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
 
 # SETTING-UP BACKGROUND IMAGE
